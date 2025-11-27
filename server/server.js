@@ -12,7 +12,10 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middlewares
-app.use(cors()); // enable CORS for frontend dev
+app.use(cors({
+  origin: ['http://localhost:3000', 'https://prathamportfolio-beige.vercel.app'],
+  credentials: true
+})); // enable CORS for frontend dev
 app.use(express.json()); // parse JSON bodies
 
 // Routes
