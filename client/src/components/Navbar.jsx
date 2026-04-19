@@ -51,7 +51,7 @@ export default function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-gray-900/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
+        scrolled ? 'bg-gray-900/80 backdrop-blur-xl shadow-[0_8px_32px_rgba(59,130,246,0.18)] border-b border-blue-500/20' : 'bg-transparent'
       }`}
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -61,7 +61,7 @@ export default function Navbar() {
         >
           Prathmesh
         </button>
-        <ul className="flex gap-8">
+        <ul className="hidden md:flex gap-8">
           {navItems.map(item => (
             <li key={item.id}>
               <button
@@ -81,6 +81,9 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
+        <div className="md:hidden text-xs px-3 py-1.5 rounded-full border border-blue-500/40 text-blue-300 bg-blue-500/10">
+          {activeSection.toUpperCase()}
+        </div>
       </div>
     </motion.nav>
   )

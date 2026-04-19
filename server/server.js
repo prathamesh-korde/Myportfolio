@@ -13,7 +13,12 @@ const PORT = process.env.PORT || 5000;
 
 // Middlewares
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://prathamportfolio-beige.vercel.app'],
+  origin: [
+    'http://localhost:3000', 
+    'http://localhost:5173', 
+    'https://prathamportfolio-beige.vercel.app',
+    process.env.FRONTEND_URL 
+  ].filter(Boolean),
   credentials: true
 })); // enable CORS for frontend dev
 app.use(express.json()); // parse JSON bodies

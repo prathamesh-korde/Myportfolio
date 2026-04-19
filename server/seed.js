@@ -9,7 +9,7 @@ const projects = [
     title: 'JanMat - Civic Engagement Platform',
     description: 'Built a full-stack platform connecting citizens with government authorities for reporting issues in real time. Implemented session-based authentication and role-based authorization. Key features include issue reporting with geolocation tracking, news updates, a chatbot, and real-time polls.',
     techStack: ['JavaScript', 'React', 'TypeScript', 'PostgreSQL', 'Express.js'],
-    githubUrl: 'https://github.com/karanyede/JanMat',
+    githubUrl: 'https://github.com/prathamesh-korde/JanMat.git',
     liveUrl: 'https://janmat.vercel.app/',
     imageUrl: 'https://d13qu023z75971.cloudfront.net/2023/04/Voting-Provider-Image.png'
   },
@@ -18,7 +18,7 @@ const projects = [
     description: 'Built a full-stack hotel review platform with search, filtering, and rating features. Designed and consumed RESTful APIs for property data, authentication, and management. Implemented secure user sessions with Passport.js authentication and role-based access.',
     techStack: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Passport.js'],
     githubUrl: 'https://github.com/prathamesh-korde/NxtStay',
-    liveUrl: 'https://nxtstay.onrender.com/listings',
+    liveUrl: 'https://nxt-stay2.vercel.app/Listings',
     imageUrl: 'https://www.shutterstock.com/image-vector/trip-travel-hotel-booking-logo-260nw-1016603458.jpg'
   },
   {
