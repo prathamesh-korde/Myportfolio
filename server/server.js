@@ -17,6 +17,7 @@ app.use(cors({
     'http://localhost:3000', 
     'http://localhost:5173', 
     'https://prathamportfolio-beige.vercel.app',
+    'https://portfolio-gray-beta-17.vercel.app',
     process.env.FRONTEND_URL 
   ].filter(Boolean),
   credentials: true
