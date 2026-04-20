@@ -42,6 +42,28 @@ function MagneticCard({ children, className }) {
 
 const featuredProjects = [
   {
+    _id: 'nxtstay-project',
+    title: 'NxtStay - Smart Hotel Listing Platform',
+    description: 'Developed a full-stack hotel listing platform featuring CRUD operations, search, filtering, ratings, and JWT-based authentication with role-based access. Developed RESTful APIs for user actions and media, integrating Cloudinary for image uploads and Mapbox for location-based search.',
+    techStack: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Cloudinary', 'Mapbox'],
+    githubUrl: 'https://github.com/prathamesh-korde/NxtStay2',
+    liveUrl: 'https://nxt-stay2-git-main-kordeprathamesh01-gmailcoms-projects.vercel.app/Listings',
+    imageUrl: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80',
+    status: 'Live',
+    color: '#ef4444'
+  },
+  {
+    _id: 'janmat-project',
+    title: 'JanMat - Civic Engagement Platform',
+    description: 'Built a geolocation-based civic platform for real-time issue reporting, connecting citizens with government authorities. Implemented session-based authentication and role-based authorization to ensure controlled access. Key features include issue reporting with geolocation tracking, news updates, a chatbot, and real-time polls.',
+    techStack: ['JavaScript', 'React', 'TypeScript', 'PostgreSQL'],
+    githubUrl: 'https://github.com/prathamesh-korde/JanMat.git',
+    liveUrl: 'https://janmat.vercel.app/',
+    imageUrl: 'https://images.unsplash.com/photo-1541872526-24ebf513d2f2?auto=format&fit=crop&w=1200&q=80',
+    status: 'Live',
+    color: '#eab308'
+  },
+  {
     _id: 'cain-project',
     title: 'CAIN (Cricket AI Network)',
     description: 'CAIN is a pioneering Multi-Agent AI ecosystem that transforms cricket analytics into a proactive digital coaching staff. It uses specialized autonomous agents for injury prevention, tactical simulations, and scouting while maintaining a phased human-in-the-loop adoption model.',
@@ -58,18 +80,6 @@ const featuredProjects = [
       'dilip11@gmail.com / password (globalScout)',
       'gg123@gmail.com / password (headCoach)'
     ]
-  },
-  {
-    _id: 'hrms-project',
-    title: 'HRMS Platform',
-    description: 'A centralized HRMS platform for automating employee records, attendance, payroll, and leave management with role-based workflows for onboarding, performance tracking, and approvals, plus analytics dashboards for workforce planning.',
-    techStack: ['React', 'Node.js', 'Workflow Automation', 'Role-Based Access', 'Dashboards'],
-    githubUrl: '',
-    liveUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80',
-    status: 'Ongoing',
-    color: '#a855f7',
-    privateRepoNote: 'Private repository'
   },
   {
     _id: 'recruiter-ai-project',
@@ -93,6 +103,51 @@ const featuredProjects = [
     status: 'Ongoing',
     color: '#f472b6',
     privateRepoNote: 'Private repository'
+  },
+  {
+    _id: 'hrms-project',
+    title: 'HRMS Platform',
+    description: 'A centralized HRMS platform for automating employee records, attendance, payroll, and leave management with role-based workflows for onboarding, performance tracking, and approvals, plus analytics dashboards for workforce planning.',
+    techStack: ['React', 'Node.js', 'Workflow Automation', 'Role-Based Access', 'Dashboards'],
+    githubUrl: '',
+    liveUrl: '',
+    imageUrl: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80',
+    status: 'Ongoing',
+    color: '#a855f7',
+    privateRepoNote: 'Private repository'
+  },
+  {
+    _id: 'ei-project',
+    title: 'Engineering India',
+    description: 'A comprehensive web platform developed for Engineering India CDP.',
+    techStack: ['React', 'Web Development'],
+    githubUrl: 'https://github.com/prathamesh-korde/website-ei-cdp.git',
+    liveUrl: 'https://github.com/prathamesh-korde/website-ei-cdp',
+    imageUrl: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80',
+    status: 'Live',
+    color: '#f97316'
+  },
+  {
+    _id: 'amazon-clone-project',
+    title: 'Amazon Clone',
+    description: 'A robust e-commerce platform clone modeling core Amazon functionalities including product browsing, cart management, and user authentication.',
+    techStack: ['React', 'Node.js', 'Express.js', 'MongoDB'],
+    githubUrl: 'https://github.com/prathamesh-korde/AmazonClone.git',
+    liveUrl: '',
+    imageUrl: 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?auto=format&fit=crop&w=1200&q=80',
+    status: 'Completed',
+    color: '#f59e0b'
+  },
+  {
+    _id: 'gamebox-project',
+    title: 'Game Box',
+    description: 'A collection of interactive web-based mini-games featuring classics like Tic-Tac-Toe and Rock-Paper-Scissors, plus a fully functional arithmetic calculator.',
+    techStack: ['JavaScript', 'HTML', 'CSS'],
+    githubUrl: 'https://github.com/prathamesh-korde/Game.git',
+    liveUrl: '',
+    imageUrl: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80',
+    status: 'Completed',
+    color: '#22c55e'
   }
 ]
 
